@@ -20,7 +20,7 @@ const password = document.getElementById('password');
 
 // Eventos:
 btnBackToLogin.addEventListener('click', () => {
-    window.location.href = `${window.location.protocol}//${window.location.host}/`;
+    window.location.href = 'https://leandropalma27.github.io/autheAndAuthoWithLS-SS-Cookies/';
 });
 btnCreateAccount.addEventListener('click', () => {
     if (user.value == '' && password.value == '') {
