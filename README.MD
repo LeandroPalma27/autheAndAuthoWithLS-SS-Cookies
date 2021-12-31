@@ -11,3 +11,5 @@ Este proyecto se realizo con la finalidad de experimentar y aprender de las tecn
 - Las cookies nos sirven para poder preservar informacion un poco mas confidencial, ya que se envian desde el servidor, pero siempre y cuando estas se cifren para que asi sean seguras.
 
 - Para finalizar, las cookies y el localStorage pueden servir de mucha ayuda para preservar informacion que nos permita poder gestionar la navegacion de manera mas efectiva, dando rapidez para la recuperacion de datos entre otras cosas mas intersentas. En resumen, pueden ser de gran ayuda en el desarollo web asi que no debemos dejarlas de lado.
+
+https://leandropalma27.github.io/resources/register.html

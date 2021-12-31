@@ -4,7 +4,7 @@ import { authenticateAccount } from './functionalities/account-validation/login-
 
 // Para validar si existe una sesion activa:
 if (sessionStorage.length > 0) {
-    window.location.href = `${window.location.protocol}//${window.location.host}/resources/main.html`;
+    window.location.href = `${window.location.protocol}//${window.location.host}/autheAndAuthoWithLS-SS-Cookies/resources/main.html`;
 }
 
 // Buttons:
@@ -19,7 +19,7 @@ const password = document.getElementById('password');
 
 // Eventos:
 createAccount.addEventListener('click', () => {
-    window.location.href = `${window.location.protocol}//${window.location.host}/resources/register.html`;
+    window.location.href = `${window.location.protocol}//${window.location.host}/autheAndAuthoWithLS-SS-Cookies/resources/register.html`;
 });
 btnIngresar.addEventListener('click', () => {
     if (user.value == '' && password.value == '') {

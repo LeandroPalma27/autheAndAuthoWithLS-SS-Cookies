@@ -14,7 +14,7 @@ const validateAccount = (user, pass, item ) => {
         alert('Logueo valido.');
         createSession(user);
         createCookie(user, pass);
-        window.location.href = `${window.location.protocol}//${window.location.host}/resources/main.html`;
+        window.location.href = `${window.location.protocol}//${window.location.host}/autheAndAuthoWithLS-SS-Cookies/resources/main.html`;
     } else {
         alert('La contraseña es incorrecta o el username es incorrecto.');
     }

@@ -10,7 +10,7 @@ export const createAccount = (user, pass) => {
             password: pass
         }));
         alert('Cuenta creada.');
-        window.location.href = `${window.location.protocol}//${window.location.host}/`;
+        window.location.href = `${window.location.protocol}//${window.location.host}/autheAndAuthoWithLS-SS-Cookies/`;
     }
 
 }

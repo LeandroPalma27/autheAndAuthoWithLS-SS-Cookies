@@ -2,7 +2,7 @@ import '../css/main.css';
 
 // Para comprobar si hay una sesion activa valida:
 if (sessionStorage.length == 0) {
-    window.location.href = `${window.location.protocol}//${window.location.host}/`;
+    window.location.href = `${window.location.protocol}//${window.location.host}/autheAndAuthoWithLS-SS-Cookies/`;
 }
 
 // Buttons:
@@ -16,7 +16,7 @@ const cookies = document.cookie;
 
 btnCerrarSesion.addEventListener('click', () => {
     sessionStorage.clear();
-    window.location.href = `${window.location.protocol}//${window.location.host}/`;
+    window.location.href = `${window.location.protocol}//${window.location.host}/autheAndAuthoWithLS-SS-Cookies/`;
 });
 
 // Para realizar la lectura de las cookies:
